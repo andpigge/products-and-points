@@ -1,0 +1,11 @@
+.main {
+  grid-area: main;
+  background-color: #FF9800;
+  margin-right: 32px;
+}
+
+@media (max-width: 995px) {
+  .main {
+    margin-right: 0;
+  }
+}

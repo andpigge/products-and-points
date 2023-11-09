@@ -1,0 +1,23 @@
+.layout {
+  display: grid;
+  grid-template-columns: auto minmax(640px, 890px) minmax(302px, 430px) auto;
+  grid-template-areas:
+    ". header header ."
+    ". main sidebar ."
+    ". footer footer .";
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  padding: 0 24px;
+}
+
+@media (max-width: 995px) {
+  .layout {
+    grid-template-columns: minmax(320px, 1fr);
+    grid-template-areas:
+      "header"
+      "main"
+      "sidebar"
+      "footer";
+    padding: 0 16px;
+  }
+}
