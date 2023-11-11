@@ -1,8 +1,11 @@
-@import url("/normalize.css");
+@import url("/styles/normalize.css");
 
 /* styles */
-@import url("/styles/footer.css");
-@import url("/styles/header.css");
-@import url("/styles/layout.css");
-@import url("/styles/main.css");
-@import url("/styles/sidebar.css");
+@import url("/styles/text.css");
+@import url("/styles/blocks/footer.css");
+@import url("/styles/blocks/header.css");
+@import url("/styles/blocks/layout.css");
+@import url("/styles/blocks/main.css");
+@import url("/styles/blocks/sidebar.css");
+@import url("/styles/blocks/open-navigation-button.css");
+@import url("/styles/blocks/search.css");
