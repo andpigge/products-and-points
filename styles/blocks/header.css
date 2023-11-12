@@ -1,5 +1,4 @@
 .header {
-  grid-area: header;
   background-color: var(--system-violet, #6725A8);
 }
 

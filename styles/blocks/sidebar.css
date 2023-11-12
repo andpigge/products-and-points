@@ -1,5 +1,192 @@
-.sidebar {
+.sidebar-order-amount {
+  display: grid;
   grid-area: sidebar;
   margin-bottom: auto;
-  background-color: #FFC107;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.30), 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  background-color: var(--background-white, #FFF);
+  padding: 16px 24px 24px;
+  row-gap: 24px;
+}
+
+.sidebar-order-amount__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebar-order-amount__list_row_gap {
+  display: grid;
+  row-gap: 4px;
+}
+
+.sidebar-order-amount__item_spacing_space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-order-amount__item_margin_bottom {
+  margin-bottom: 8px;
+}
+
+.sidebar-order-amount__wrapper_spacing_space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-order-amount__wrapper_align_center {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-order-amount__wrapper_margin_bottom {
+  margin-bottom: 8px;
+}
+
+.sidebar-order-amount__large-bold-text {
+  margin: 0;
+  font-family: Segoe UI, Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.24px;
+  color: var(--text-black, #000);
+  display: inline-block;
+}
+
+.sidebar-order-amount__medium-bold-text {
+  margin: 0;
+  color: var(--text-black, #000);
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  display: inline-block;
+}
+
+.sidebar-order-amount__text {
+  margin: 0;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-black, #000);
+}
+
+.sidebar-order-amount__address {
+  display: flex;
+  row-gap: 4px;
+  margin-bottom: 12px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+/* .sidebar-order-amount__wrapper_margin_bottom {
+  margin-bottom: 12px;
+} */
+
+.sidebar-order-amount__wrapper_column_gap {
+  display: flex;
+  column-gap: 8px;
+}
+
+.sidebar-order-amount__edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+}
+
+.sidebar-order-amount__bold-text {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--text-black, #000);
+  margin: 0;
+}
+
+.sidebar-order-amount__button-icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-image: url('/shared/icons/edit.svg');
+  border: none;
+  background-color: transparent;
+}
+
+.sidebar-order-amount__small-text {
+  display: inline-block;
+  font-family: Segoe UI;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--text-black, #000);
+  margin: 0;
+}
+
+.sidebar-order-amount__text-underline {
+  border-bottom: 1px solid var(--rulers-rulers, rgba(0, 0, 0, 0.10));
+}
+
+.sidebar-order-amount__small-text_display_block {
+  display: block;
+}
+
+.sidebar-order-amount__text_decor_magenta {
+  color: var(--system-magenta, #CB11AB);
+  border-bottom: 1px dashed rgba(203, 17, 171, 0.20);
+}
+
+.sidebar-order-amount__text_decor_green {
+  color: var(--system-green, #0CB477);
+  border-bottom: 1px dashed rgba(12, 180, 119, 0.20);
+}
+
+.sidebar-order-amount__wrapper-content {
+  padding: 8px 8px 12px;
+  border-radius: 8px;
+  background: var(--background-smoky, #F6F6FA);
+}
+
+.sidebar-order-amount__wrapper-content_column_gap {
+  display: flex;
+  column-gap: 8px;
+}
+
+.sidebar-order-amount__wrapper-content_align_center {
+  align-items: center;
+}
+
+.sidebar-order-amount__return-delivery-icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-image: url('/shared/icons/completed.svg');
+  background-position: center;
+}
+
+.sidebar-order-amount__payment-icon {
+  display: block;
+  width: 32px;
+  height: 24px;
+  background-image: url('/shared/icons/payment-systems.svg');
+  background-position: center;
+}
+
+.sidebar-order-amount__selected-icon {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url('/shared/icons/selected.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 6px;
 }
