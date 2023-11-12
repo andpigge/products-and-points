@@ -1,4 +1,4 @@
-.open-navigation-button {
+.menu-button {
   cursor: pointer;
   width: 48px;
   height: 48px;
@@ -9,7 +9,7 @@
   border: 1px solid rgba(255, 255, 255, 0.45);
 }
 
-.open-navigation-button__decor-line {
+.menu-button__decor-line {
   position: relative;
   height: 4px;
   display: block;
@@ -18,7 +18,7 @@
   width: 28px;
 }
 
-.open-navigation-button__decor-line::before {
+.menu-button__decor-line::before {
   content: '';
   display: block;
   position: absolute;
@@ -29,7 +29,7 @@
   bottom: 10px;
 }
 
-.open-navigation-button__decor-line::after {
+.menu-button__decor-line::after {
   content: '';
   display: block;
   position: absolute;

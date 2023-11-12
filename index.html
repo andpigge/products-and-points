@@ -11,37 +11,39 @@
 
     <header class="header">
       <div class="header__wrapper">
-        <div class="header__wrapper-logo">
-          <button class="open-navigation-button">
-            <span class="open-navigation-button__decor-line"></span>
+        <div class="header__logo">
+          <button class="menu-button">
+            <span class="menu-button__decor-line"></span>
           </button>
 
-          <a href="#" class="header__logo-text text">
+          <a href="#" class="header__bold-text">
             Товары и точка
           </a>
         </div>
 
         <label class="search">
-          <input placeholder="Я ищу..." class="search__input-search text" type="search">
+          <input placeholder="Я ищу..." class="search__input" type="search">
           <button class="search__button">
             <span class="search__icon"></span>
           </button>
         </label>
 
-        <ul class="header__navigation">
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#">
-              <span class="header__navigation-icon header__background-user"></span>
-              <p class="header__navigation-text text small-text">Профиль</p>
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#">
+              <span class="header__user-icon"></span>
+              <p class="header__text">Профиль</p>
             </a>
           </li>
 
-          <li class="header__navigation-item">
-            <a class="header__navigation-link" href="#">
-              <span class="header__navigation-icon header__background-basket"></span>
-              <p class="header__navigation-text text small-text">Корзина</p>
+          <li class="header__item">
+            <a class="header__link" href="#">
+              <span class="header__basket-icon"></span>
+              <p class="header__text">Корзина</p>
             </a>
-            <p class="header__navigation-count">3</p>
+            <div class="header__wrapper-count">
+              <p class="header__small-text">3</p>
+            </div>
           </li>
         </ul>
       </div>
