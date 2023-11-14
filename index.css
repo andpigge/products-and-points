@@ -7,7 +7,11 @@
 @import url("/styles/blocks/layout.css");
 @import url("/styles/blocks/main.css");
 @import url("/styles/blocks/sidebar.css");
+@import url("/styles/blocks/basket.css");
 @import url("/styles/blocks/menu-button.css");
 @import url("/styles/blocks/search.css");
 @import url("/styles/blocks/checkbox.css");
 @import url("/styles/blocks/button.css");
+@import url("/styles/blocks/products.css");
+@import url("/styles/blocks/card-product.css");
+@import url("/styles/blocks/count-product.css");

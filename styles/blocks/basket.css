@@ -1,0 +1,15 @@
+.basket {
+  padding-top: 12px;
+}
+
+.basket__title {
+  margin: 0;
+  font-family: Segoe UI;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.28px;
+  color: var(--text-black, #000);
+  margin-bottom: 27px;
+}

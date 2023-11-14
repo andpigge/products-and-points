@@ -86,10 +86,6 @@
   align-items: start;
 }
 
-/* .sidebar-order-amount__wrapper_margin_bottom {
-  margin-bottom: 12px;
-} */
-
 .sidebar-order-amount__wrapper_column_gap {
   display: flex;
   column-gap: 8px;
@@ -154,6 +150,10 @@
   padding: 8px 8px 12px;
   border-radius: 8px;
   background: var(--background-smoky, #F6F6FA);
+}
+
+.sidebar-order-amount__wrapper-content_margin_bottom {
+  margin-bottom: 8px;
 }
 
 .sidebar-order-amount__wrapper-content_column_gap {
