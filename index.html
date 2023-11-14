@@ -51,13 +51,13 @@
 
     <div class="layout__content">
       <main class="main">
-        <section class="basket">
-          <h1 class="basket__title">
+        <div class="main__wrapper-basket">
+          <h1 class="main__title">
             Корзина
           </h1>
 
-          <div class="products products_margin_bottom">
-            <div class="products__wrapper-button products_margin-bottom">
+          <section class="products products_margin_bottom">
+            <div class="products__wrapper-button">
               <label class="checkbox products__wrapper-button_column_gap">
                 <input class="checkbox__input" type="checkbox">
                 <p class="checkbox__text">Выбрать все</p>
@@ -112,7 +112,7 @@
                     </div>
                   </div>
 
-                  <div class="card-product__wrapper-count">
+                  <div class="card-product__wrapper-count card-product__wrapper-count_margin_right">
                     <div class="count-product">
                       <button class="count-product__button count-product__button_disabled">-</button>
                       <p class="count-product__text">1</p>
@@ -184,7 +184,7 @@
                     </div>
                   </div>
 
-                  <div class="card-product__wrapper-count">
+                  <div class="card-product__wrapper-count card-product__wrapper-count_margin_right">
                     <div class="count-product">
                       <button class="count-product__button count-product__button_disabled">-</button>
                       <p class="count-product__text">200</p>
@@ -248,7 +248,7 @@
                     </div>
                   </div>
 
-                  <div class="card-product__wrapper-count">
+                  <div class="card-product__wrapper-count card-product__wrapper-count_margin_right">
                     <div class="count-product">
                       <button class="count-product__button count-product__button_disabled">-</button>
                       <p class="count-product__text">2</p>
@@ -281,8 +281,137 @@
 
               </li>
             </ul>
-          </div>
-        </section>
+          </section>
+
+          <section class="products products_margin_bottom">
+            <div class="products__wrapper-button">
+              <p class="products__bold-text">
+                Отсутствуют · 3 товара
+              </p>
+
+              <button class="products__button-icon products__button-icon_position_end">
+                <span class="products__icon-up-arrow"></span>
+              </button>
+            </div>
+
+            <ul class="products__list">
+              <li class="products__item">
+
+                <div class="card-product">
+                  <div class="card-product__wrapper-content">
+                    <img loading="lazy" class="card-product__image card-product__image_background" src="/shared/images/product-1.jpg" alt="Продукт">
+
+                    <div class="card-product__wrapper-text">
+                      <h2 class="card-product__text card-product__small-text_color_gray">
+                        Футболка UZcotton мужская
+                      </h2>
+
+                      <div class="card-product__wrapper card-product__wrapper_column_gap">
+                        <p class="card-product__small-text card-product__small-text_color_gray">
+                          Цвет: белый
+                        </p>
+
+                        <p class="card-product__small-text card-product__small-text_color_gray">
+                          Размер: 56
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card-product__wrapper-count">
+                    <!-- <div class="count-product">
+                      <button class="count-product__button count-product__button_disabled">-</button>
+                      <p class="count-product__text">1</p>
+                      <button class="count-product__button">+</button>
+                    </div>
+
+                    <p class="card-product__small-text card-product__small-text_color_red">
+                      Осталось 2 шт.
+                    </p> -->
+
+                    <div class="card-product__wrapper-buttons">
+                      <button class="card-product__button-icon">
+                        <span class="card-product__like-icon"></span>
+                      </button>
+                      <button class="card-product__button-icon">
+                        <span class="card-product__delete-icon"></span>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- <div class="card-product__wrapper-sum">
+                    <div class="card-product__wrapper card-product__wrapper_text_right">
+                      <p class="card-product__large-bold-text">522</p>
+                      <p class="card-product__bold-text">сом</p>
+                    </div>
+                    <p class="card-product__small-text card-product__text_decor">1051 сом</p>
+                  </div> -->
+
+                </div>
+
+              </li>
+
+              <li class="products__item">
+
+                <div class="card-product">
+                  <div class="card-product__wrapper-content">
+                    <img loading="lazy" class="card-product__image card-product__image_background" src="/shared/images/product-2.jpg" alt="Продукт">
+
+                    <div class="card-product__wrapper-text">
+                      <h2 class="card-product__text card-product__small-text_color_gray">
+                        Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe
+                      </h2>
+
+                      <p class="card-product__small-text card-product__small-text_color_gray">
+                        Цвет: прозрачный
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="card-product__wrapper-count">
+                    <div class="card-product__wrapper-buttons">
+                      <button class="card-product__button-icon">
+                        <span class="card-product__like-icon"></span>
+                      </button>
+                      <button class="card-product__button-icon">
+                        <span class="card-product__delete-icon"></span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+              </li>
+
+              <li class="products__item">
+
+                <div class="card-product">
+                  <div class="card-product__wrapper-content">
+                    <img loading="lazy" class="card-product__image card-product__image_background" src="/shared/images/product-3.jpg" alt="Продукт">
+
+                    <div class="card-product__wrapper-text">
+                      <h2 class="card-product__text card-product__small-text_color_gray">
+                        Карандаши цветные Faber-Castell "Замок", набор 24 цвета, заточенные, шестигранные, Faber-Castell
+                      </h2>
+                    </div>
+                  </div>
+
+                  <div class="card-product__wrapper-count">
+                    <div class="card-product__wrapper-buttons">
+                      <button class="card-product__button-icon">
+                        <span class="card-product__like-icon"></span>
+                      </button>
+                      <button class="card-product__button-icon">
+                        <span class="card-product__delete-icon"></span>
+                      </button>
+                    </div>
+                  </div>
+
+                </div>
+
+              </li>
+            </ul>
+          </section>
+        </div>
       </main>
 
       <aside class="sidebar-order-amount">

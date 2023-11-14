@@ -29,11 +29,16 @@
   border-radius: 8px;
 }
 
+.card-product__image_background {
+  filter: grayscale(1);
+}
+
 .card-product__wrapper-text {
   display: grid;
   width: 100%;
-  max-width: 275px;
+  max-width: 278px;
   row-gap: 8px;
+  align-content: start;
 }
 
 .card-product__wrapper_column_gap {
@@ -105,8 +110,13 @@
 .card-product__wrapper-count {
   display: grid;
   row-gap: 8px;
-  margin-right: 16px;
   align-content: start;
+  max-width: 100px;
+  width: 100%;
+}
+
+.card-product__wrapper-count_margin_right {
+  margin-right: 16px;
 }
 
 .card-product__wrapper-buttons {

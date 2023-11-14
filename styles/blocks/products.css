@@ -10,6 +10,7 @@
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto 1fr;
+  margin-bottom: 18px;
 }
 
 .products__wrapper-button_column_gap {
@@ -46,4 +47,14 @@
 
 .products__item {
   list-style: none;
+}
+
+.products__bold-text {
+  margin: 0;
+  color: var(--text-black, #000);
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
 }
