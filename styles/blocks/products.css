@@ -10,7 +10,7 @@
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto 1fr;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .products__wrapper-button_column_gap {
@@ -39,10 +39,10 @@
 
 .products__list {
   margin: 0;
-  padding: 12px 0 0;
+  padding: 0;
   border-top: 1px solid var(--rulers-rulers, rgba(0, 0, 0, 0.10));
   display: grid;
-  row-gap: 27px;
+  row-gap: 20px;
 }
 
 .products__item {
@@ -56,5 +56,5 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 18px;
 }

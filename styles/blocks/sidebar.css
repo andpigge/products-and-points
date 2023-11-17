@@ -1,4 +1,4 @@
-.sidebar-order-amount {
+.sidebar {
   display: grid;
   grid-area: sidebar;
   margin-bottom: auto;
@@ -9,41 +9,41 @@
   row-gap: 24px;
 }
 
-.sidebar-order-amount__list {
+.sidebar__list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.sidebar-order-amount__list_row_gap {
+.sidebar__list_row_gap {
   display: grid;
   row-gap: 4px;
 }
 
-.sidebar-order-amount__item_spacing_space-between {
+.sidebar__item_spacing_space-between {
   display: flex;
   justify-content: space-between;
 }
 
-.sidebar-order-amount__item_margin_bottom {
+.sidebar__item_margin_bottom {
   margin-bottom: 8px;
 }
 
-.sidebar-order-amount__wrapper_spacing_space-between {
+.sidebar__wrapper_spacing_space-between {
   display: flex;
   justify-content: space-between;
 }
 
-.sidebar-order-amount__wrapper_align_center {
+.sidebar__wrapper_align_center {
   display: flex;
   align-items: center;
 }
 
-.sidebar-order-amount__wrapper_margin_bottom {
+.sidebar__wrapper_margin_bottom {
   margin-bottom: 8px;
 }
 
-.sidebar-order-amount__large-bold-text {
+.sidebar__large-bold-text {
   margin: 0;
   font-family: Segoe UI, Arial, sans-serif;
   font-size: 24px;
@@ -55,7 +55,7 @@
   display: inline-block;
 }
 
-.sidebar-order-amount__medium-bold-text {
+.sidebar__medium-bold-text {
   margin: 0;
   color: var(--text-black, #000);
   font-family: Segoe UI;
@@ -67,7 +67,7 @@
   display: inline-block;
 }
 
-.sidebar-order-amount__text {
+.sidebar__text {
   margin: 0;
   font-family: Segoe UI;
   font-size: 16px;
@@ -77,7 +77,7 @@
   color: var(--text-black, #000);
 }
 
-.sidebar-order-amount__address {
+.sidebar__address {
   display: flex;
   row-gap: 4px;
   margin-bottom: 12px;
@@ -86,19 +86,19 @@
   align-items: start;
 }
 
-.sidebar-order-amount__wrapper_column_gap {
+.sidebar__wrapper_column_gap {
   display: flex;
   column-gap: 8px;
 }
 
-.sidebar-order-amount__edit {
+.sidebar__edit {
   display: flex;
   justify-content: space-between;
   align-items: end;
   width: 100%;
 }
 
-.sidebar-order-amount__bold-text {
+.sidebar__bold-text {
   font-family: Segoe UI;
   font-size: 16px;
   font-style: normal;
@@ -108,7 +108,7 @@
   margin: 0;
 }
 
-.sidebar-order-amount__button-icon {
+.sidebar__button-icon {
   cursor: pointer;
   width: 20px;
   height: 20px;
@@ -117,7 +117,7 @@
   background-color: transparent;
 }
 
-.sidebar-order-amount__small-text {
+.sidebar__small-text {
   display: inline-block;
   font-family: Segoe UI;
   font-size: 13px;
@@ -128,44 +128,44 @@
   margin: 0;
 }
 
-.sidebar-order-amount__text-underline {
+.sidebar__text-underline {
   border-bottom: 1px solid var(--rulers-rulers, rgba(0, 0, 0, 0.10));
 }
 
-.sidebar-order-amount__small-text_display_block {
+.sidebar__small-text_display_block {
   display: block;
 }
 
-.sidebar-order-amount__text_decor_magenta {
+.sidebar__text_decor_magenta {
   color: var(--system-magenta, #CB11AB);
   border-bottom: 1px dashed rgba(203, 17, 171, 0.20);
 }
 
-.sidebar-order-amount__text_decor_green {
+.sidebar__text_decor_green {
   color: var(--system-green, #0CB477);
   border-bottom: 1px dashed rgba(12, 180, 119, 0.20);
 }
 
-.sidebar-order-amount__wrapper-content {
+.sidebar__wrapper-content {
   padding: 8px 8px 12px;
   border-radius: 8px;
   background: var(--background-smoky, #F6F6FA);
 }
 
-.sidebar-order-amount__wrapper-content_margin_bottom {
+.sidebar__wrapper-content_margin_bottom {
   margin-bottom: 8px;
 }
 
-.sidebar-order-amount__wrapper-content_column_gap {
+.sidebar__wrapper-content_column_gap {
   display: flex;
   column-gap: 8px;
 }
 
-.sidebar-order-amount__wrapper-content_align_center {
+.sidebar__wrapper-content_align_center {
   align-items: center;
 }
 
-.sidebar-order-amount__return-delivery-icon {
+.sidebar__completed-icon {
   display: block;
   width: 22px;
   height: 22px;
@@ -173,7 +173,7 @@
   background-position: center;
 }
 
-.sidebar-order-amount__payment-icon {
+.sidebar__payment-icon {
   display: block;
   width: 32px;
   height: 24px;
@@ -181,7 +181,7 @@
   background-position: center;
 }
 
-.sidebar-order-amount__selected-icon {
+.sidebar__selected-icon {
   display: block;
   width: 14px;
   height: 14px;

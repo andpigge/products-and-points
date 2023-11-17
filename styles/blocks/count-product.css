@@ -1,6 +1,6 @@
 .count-product {
   display: flex;
-  padding: 8px 4px 10px 4px;
+  padding: 5px 3px 10px 4px;
   border-radius: 8px;
   background: var(--background-white, #FFF);
   justify-content: space-between;
@@ -8,7 +8,7 @@
   max-width: 100px;
   width: 100px;
   box-sizing: border-box;
-  align-items: end;
+  align-items: center;
 }
 
 .count-product__button {
