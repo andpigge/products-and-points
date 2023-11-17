@@ -1,6 +1,6 @@
 .form-receiver {
   display: grid;
-  padding: 17px 0;
+  padding-top: 16px;
   gap: 34px 24px;
   grid-template-areas:
       "firstname firstname firstname lastname lastname lastname"
