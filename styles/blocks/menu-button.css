@@ -1,0 +1,41 @@
+.menu-button {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  padding: 12px 10px;
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.menu-button__decor-line {
+  position: relative;
+  height: 4px;
+  display: block;
+  background-color: var(--system-white, #FFF);
+  border-radius: 4px;
+  width: 28px;
+}
+
+.menu-button__decor-line::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  bottom: 10px;
+}
+
+.menu-button__decor-line::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  top: 10px;
+}

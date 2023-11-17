@@ -1,0 +1,30 @@
+.form-receiver {
+  display: grid;
+  padding-top: 16px;
+  gap: 34px 24px;
+  grid-template-areas:
+      "firstname firstname firstname lastname lastname lastname"
+      "mail mail phone phone inn inn";
+  max-width: 700px;
+  width: 100%;
+}
+
+.form-receiver__area_firstname {
+  grid-area: firstname;
+}
+
+.form-receiver__area_lastname {
+  grid-area: lastname;
+}
+
+.form-receiver__area_mail {
+  grid-area: mail;
+}
+
+.form-receiver__area_phone {
+  grid-area: phone;
+}
+
+.form-receiver__area_inn {
+  grid-area: inn;
+}

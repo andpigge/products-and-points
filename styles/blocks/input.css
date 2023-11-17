@@ -1,0 +1,80 @@
+.input-text {
+  display: grid;
+  position: relative;
+  max-width: 338px;
+  width: 100%;
+  row-gap: 4px;
+  align-content: start;
+}
+
+.input-text__field {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid var(--rulers-rulers-input, rgba(0, 0, 0, 0.20));
+}
+
+.input-text__text {
+  padding: 0;
+  margin: 0;
+  color: var(--text-black, #000);
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  box-sizing: border-box;
+  outline: none;
+  padding-bottom: 3px;
+}
+
+.input-text__label {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  transition: .2s;
+  cursor: text;
+}
+
+.input-text__text_color_gray {
+  color: var(--system-gray, #9797AF);
+}
+
+.input-text__field:focus ~ .input-text__label {
+  font-size: 13px;
+  line-height: 16px;
+  top: -20px;
+  background-color: white;
+}
+
+.input-text__field:not(:placeholder-shown) ~ .input-text__label {
+  padding: 0;
+  font-size: 13px;
+  line-height: 16px;
+  top: -20px;
+  background-color: white;
+}
+
+.input-text__field::placeholder {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s ease-out;
+  transform: translateX(-10%);
+}
+
+.input-text__field:focus::placeholder {
+  visibility: visible;
+  opacity: 1;
+  transition: .2s;
+  transform: translateX(0);
+}
+
+.input-text__text-small {
+  margin: 0;
+  color: var(--text-black, #000);
+  font-family: Segoe UI;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}

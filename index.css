@@ -1,0 +1,19 @@
+@import url("/styles/normalize.css");
+
+/* styles */
+@import url("/styles/text.css");
+@import url("/styles/blocks/footer.css");
+@import url("/styles/blocks/header.css");
+@import url("/styles/blocks/layout.css");
+@import url("/styles/blocks/main.css");
+@import url("/styles/blocks/sidebar.css");
+@import url("/styles/blocks/menu-button.css");
+@import url("/styles/blocks/search.css");
+@import url("/styles/blocks/checkbox.css");
+@import url("/styles/blocks/button.css");
+@import url("/styles/blocks/products.css");
+@import url("/styles/blocks/card-product.css");
+@import url("/styles/blocks/count-product.css");
+@import url("/styles/blocks/content.css");
+@import url("/styles/blocks/form-receiver.css");
+@import url("/styles/blocks/input.css");
